@@ -1,0 +1,123 @@
+.product-card {
+    background-color: #E5CEBF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    max-width: 520px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.select-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 220px;
+    margin-bottom: 10px;
+    width: 50%;
+
+ }
+
+.select-container a {
+    font-size: 16px;
+    width: 70px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.select-container a:hover{
+    text-decoration: underline black;
+}
+
+.select-container:nth-child(odd) {
+    margin-right: 10px;
+}
+
+
+.custom-select {
+    width: 70px;
+    height: 36px;
+    font-size: 16px;
+    background-color: transparent;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 1;
+    text-align: center;
+    transition: background-color 200ms ease-out;
+}
+
+.custom-select:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #6e8fd1;
+}
+
+.custom-select:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #6e8fd1;
+}
+
+.custom-select:hover {
+    background-color: #fdfdfd;
+}
+
+
+.custom-option {
+    border: 2px solid;
+    font-size: 16px;
+    background-color: white;
+}
+
+@media (max-width: 767px) {
+    .select-container {
+        width: 100%;
+        max-width: none;
+        margin-right: 0;
+    }
+    .select-container:nth-child(odd) {
+        margin-right: 0;
+    }
+}
+
+

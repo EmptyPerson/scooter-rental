@@ -1,0 +1,32 @@
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+.product-context {
+    /*width: 100%;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    margin: 0px 40px;
+}
+
+.product-context h1 {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-context p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+
+}
+
+
