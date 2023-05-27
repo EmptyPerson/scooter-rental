@@ -75,6 +75,10 @@ header {
         flex-direction: column-reverse;
         min-height: 100px;
     }
+
+    .nav li {
+        margin-left: 10px;
+    }
 }
 
 

@@ -47,6 +47,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: black;
 }
 
 .select-container {
@@ -110,6 +111,7 @@
     border: 2px solid;
     font-size: 16px;
     background-color: white;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -120,6 +122,22 @@
     }
     .select-container:nth-child(odd) {
         margin-right: 0;
+    }
+
+    .custom-select {
+        border: none;
+        text-align: start;
+        width: initial;
+    }
+
+    .select-container a {
+        text-align: start;
+        color: #067af6;
+        width: initial;
+    }
+
+    .select-container a:hover{
+        text-decoration: underline initial;
     }
 }
 

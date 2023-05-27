@@ -24,7 +24,7 @@ const Header = () => {
                     <li><Link to='/rentals'>Rentals</Link></li>
                     <li><Link to='/faq'>FAQ</Link></li>
                     <li><Link to='/contacts'>Contacts</Link></li>
-                    <li><a href='https://vladislav-bulakhov.web.app/' target='_blank' rel='noreferrer'>Development</a></li>
+                    <li><a href='https://vladislav-bulakhov.web.app/' target='_blank' rel='noreferrer'>Dev</a></li>
                 </ul>
             </nav>
         </header>
