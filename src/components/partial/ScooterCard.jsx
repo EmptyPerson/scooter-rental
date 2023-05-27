@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import './ScooterCard.css';
+import BookLink from "./BookLink";
 
 const ScooterCard = ({ product }) => {
     const [selectedYear, setSelectedYear] = useState(product.year[0]);
     const [selectedColor, setSelectedColor] = useState(Object.keys(product.colorImageMap)[0]);
     const [selectedBrakeSystem, setSelectedBrakeSystem] = useState(product.brakeSystem[0]);
-
+    let message = `
+        Hello! I would like to rent your scooter with the following parameters:
+        ${'Modal name: '+ product.productName}, 
+        ${'Modal year: '+ selectedYear},
+        ${'Color: '+ selectedColor},
+        ${'Brake system: '+ selectedBrakeSystem}
+    `
     const handleSelectChange = (event, setState) => {
         setState(event.target.value);
     };
@@ -79,7 +86,7 @@ const ScooterCard = ({ product }) => {
                     </div>
                 </div>
             </div>
-            <button>Book Now</button>
+            <BookLink message={message}/>
         </div>
     );
 };

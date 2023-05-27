@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 767px) {
+    .home_hero_section {
+        padding-top: 100px;
+    }
     .home_hero_section p {
         font-size: initial;
     }
