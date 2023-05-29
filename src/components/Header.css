@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 80px;
+    height: 80px;
     padding: 0 20px;
     background-color: #E5CEBF;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -73,11 +73,15 @@ header {
     header {
         font-size: 16px;
         flex-direction: column-reverse;
-        min-height: 100px;
+        height: 100px;
     }
 
     .nav li {
         margin-left: 10px;
+    }
+
+    .cta {
+        display: none;
     }
 }
 
